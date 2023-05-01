@@ -1,0 +1,176 @@
+.form {
+  color: black;
+  height: 100vh;
+  width : 100%;
+  background: #00142e;
+  /* border: 1px solid red; */
+}
+
+.formContent {
+  padding: 0px;
+  height: auto;
+}
+
+.formContentBg {
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contentPointer {
+  margin-top: 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 40px;
+}
+
+.pointer1 {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.formButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formButtons {
+  border-radius: 50%;
+  background: #0096ff;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.p1 {
+  font-size: 15px;
+  font: "Robot";
+}
+.pointer2 {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.pointer2para {
+  font-weight: bold;
+}
+
+.pointer3 {
+  border: 2px solid gray;
+  background-color: white;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.pointer31{
+  border: 2px solid gray;
+  background-color: white;
+  height: 45px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.radioButton {
+  width: 20px;
+  height: 20px;
+}
+.offerExpired1 {
+  border: 1px solid red;
+  width: 100px;
+  height: 7px;
+  background-color: rgb(248, 55, 55);
+  margin-left: 40px;
+  border-radius: 2px;
+  color: white;
+}
+
+.offerExpired2 {
+  margin-left: 22px;
+  font-size: 11px;
+  /* border: 1px solid red; */
+  height: 15px;
+  margin-top: -5px;
+}
+
+.pointer3Content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid green; */
+  gap: 40px;
+}
+
+.pointer3Content1 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.pointer3Content2 {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.pointer4 {
+  border: 1px solid red;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  color: red;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+}
+
+.total {
+  font-weight: 1000;
+}
+
+.formButton1{
+  width : 45%;
+  height : 40px;
+  color : red;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.formButton2{
+  width : 45%;
+  color : white;
+  border: none;
+  border-radius: 5px;
+}
